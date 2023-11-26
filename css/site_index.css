@@ -1,0 +1,38 @@
+.custom-navbar {
+    background-color: #ffd700; /* Gelb */
+}
+
+.custom-navbar .nav-link {
+    border: 1px solid #808080; /* Dezent grauer Rahmen */
+    border-radius: 5px; /* Abrundung der Ecken */
+    padding: 8px 16px; /* Innenabstand für die Buttons */
+    margin: 5px; /* Abstand zwischen den Buttons */
+    transition: all 0.3s; /* Übergangseffekt für Veränderungen */
+}
+
+.custom-navbar .nav-link:hover {
+    border: 2px solid #808080; /* Größerer Rahmen bei Hover */
+    padding: 7px 15px; /* Geringfügige Größenänderung */
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 24px; /* Größere Schriftgröße für die Navbar-Brand */
+}
+
+
+.container {
+    width: 60%; /* Adjust the maximum width as needed */
+    margin: auto;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Style for the carousel */
+#carouselExampleIndicators {
+    border-radius: 15px;
+    overflow: hidden; /* Hide rounded corners overflow */
+}
+
+.carousel-inner img {
+    filter: brightness(75%);
+    border-radius: 15px; /* Match the border radius of the container */
+}
